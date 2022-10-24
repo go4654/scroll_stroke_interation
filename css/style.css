@@ -4,10 +4,6 @@ body {
   overflow-x: hidden;
 }
 
-/* .wrap {
-  overflow-x: hidden;
-} */
-
 .section_0 {
   display: flex;
   justify-content: center;
@@ -17,15 +13,7 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
 }
-
-/* .svg_title.fix {
-  position: fixed;
-  top: 0;
-  left: 0;
-  overflow-y: hidden;
-} */
 
 .svg_title {
   width: 4000vw;
@@ -50,6 +38,7 @@ body {
   font-size: 100px;
   font-weight: 700;
   color: white;
+  transform: translate(-50%, -50%);
 }
 
 .title_2,
@@ -82,10 +71,32 @@ body {
   font-size: 70px;
   display: flex;
   justify-content: center;
+  padding: 10vw;
 }
 
 .section_1 p {
   max-width: 1400px;
   width: 100%;
   line-height: 6rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .main_title {
+    font-size: 75px;
+  }
+
+  .sub_title {
+    font-size: 50px;
+  }
+
+  .title_3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .section_1 p {
+    font-size: 30px;
+    line-height: 3rem;
+  }
 }
