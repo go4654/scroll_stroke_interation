@@ -1,1 +1,91 @@
 @import url(./reset.css);
+
+body {
+  overflow-x: hidden;
+}
+
+/* .wrap {
+  overflow-x: hidden;
+} */
+
+.section_0 {
+  display: flex;
+  justify-content: center;
+}
+
+#show_section_0 .section_0 .fix_el {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* .svg_title.fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: hidden;
+} */
+
+.svg_title {
+  width: 4000vw;
+  transform: translate3d(-97.5%, -68%, 0px);
+  z-index: 10;
+}
+
+.title {
+  position: absolute;
+  z-index: 10;
+  font-weight: 700;
+  margin-top: 40vh;
+  color: white;
+}
+
+.main_title {
+  font-size: 150px;
+}
+
+.sub_title {
+  z-index: 11;
+  font-size: 100px;
+  font-weight: 700;
+  color: white;
+}
+
+.title_2,
+.title_3 {
+  opacity: 0;
+}
+
+.title_3 {
+  text-shadow: 10px 10px 10px rgb(0 0 0 / 50%);
+}
+
+.stroke_line {
+  width: 100%;
+  transform: translate(-50%, -52%);
+}
+
+.st0 {
+  fill: none;
+  stroke: #ff6b6b;
+  stroke-width: 220;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 4617, 4617;
+  stroke-dashoffset: 4617;
+}
+/* section_0 */
+
+.section_1 {
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.section_1 p {
+  max-width: 1400px;
+  width: 100%;
+  line-height: 6rem;
+}
